@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     
     
 }
@@ -26,11 +27,13 @@ body {
 
 .main-hd {
     min-height: 290px;
-    border: var(--brd-space) dashed black;
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 30px 0;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .main-recap {
@@ -51,6 +54,8 @@ body {
     padding: 30px 0;
     
 }
+
+
 /* main body colors*/
 .main-hd.header {
     background-color: blue;
@@ -73,7 +78,7 @@ body {
 /* header */
 header {
     min-height: 50px;
-    background-color:  rgb(173, 216, 230);
+     background-color: rgb(42, 94, 232);
 }
 
 .flex-header {
@@ -86,29 +91,54 @@ header {
 
 .head-logo {
     flex-basis: 15%;
-    background-color: goldenrod;
-    border: var(--brd-space) dashed black;
+    background-color: transparent;
+}
+.img-logo{
+    box-sizing: border-box;
+    height: var(--space-xl);
+    padding-top: 5px;
 }
 
 .head-link {
-    flex-basis: 40%;
     display: flex;
+    flex-basis: 40%;
+    background-color: transparent;
+}
 
-    background-color: goldenrod;
-    border: var(--brd-space) dashed black;
+.link-head-link{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-right: 3px;
+    text-decoration: none;
+    font-size: 70%;
+    
+
 }
 
 .head-login {
     flex-basis: 15%;
-    background-color: goldenrod;
-    border: var(--brd-space) dashed black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: transparent;
+   
 }
 
+.btn-login{
+    border-color: transparent;
+    border-radius: 15px;
+    height: 25px;
+    width: 60px;
+    font-size: 10px;
+}
 
 /* main content */
 .head-box {
     flex-basis: 50%;
-    background-color: rgb(238, 130, 238);
+    background-color: transparent;
     border: var(--brd-space) dashed black;
 }
 
@@ -119,13 +149,13 @@ header {
 }
 
 .pic-box {
-    flex-basis: 25%;
+    flex-basis: 20%;
     background-color: rgb(255, 192, 203);
     border: var(--brd-space) dashed black;
 }
 
 .recap-box {
-    flex-basis: 65%;
+    flex-basis: 60%;
     background-color: green;
     border: var(--brd-space) dashed black;
 }
@@ -141,7 +171,7 @@ header {
 
 .reference-box {
     display: flex;
-    flex-basis: 45%;
+    flex-basis: 40%;
     padding: 0px;
     background-color: rgb(23, 174, 174);
     border: var(--brd-space) dashed black;
