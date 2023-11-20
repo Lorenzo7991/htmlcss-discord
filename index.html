@@ -8,6 +8,7 @@
     <meta name="description" content="htmlcss-struttura-discord">
     <title>Struttura Discord</title>
 
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css' integrity='sha512-KOWhIs2d8WrPgR4lTaFgxI35LLOp5PRki/DxQvb7mlP29YZ5iJ5v8tiLWF7JLk5nDBlgPP1gHzw96cZ77oD7zQ==' crossorigin='anonymous'/>
     <link rel="stylesheet" href="css/root.css">
     <link rel="icon" href="img/boolean-icon.png" type="icon/png">
     <link rel="stylesheet" href="css/style.css">
@@ -16,65 +17,89 @@
 <body>
     <!-- general container -->
     <!-- <div class="container"> -->
-        <!-- head section -->
-        <header>
-            <!-- head flex container -->
-            <div class="flex-header">
-                <!-- head element's -->
-                <div class="head-logo">
-                    <img src="img/logo.svg" alt="logo discord" class="img-logo">
+    <!-- head section -->
+    <header>
+        <!-- head flex container -->
+        <div class="flex-header">
+            <!-- head element's -->
+            <div class="head-logo">
+                <img src="img/logo.svg" alt="logo discord" class="img-logo">
+            </div>
+            <div class="head-link">
+                <a href="#" class="link-head-link">Scarica</a>
+                <a href="#" class="link-head-link">Perchè Discord</a>
+                <a href="#" class="link-head-link">Nitro</a>
+                <a href="#" class="link-head-link">Sicurezza</a>
+                <a href="#" class="link-head-link">Assistenza</a>
+            </div>
+            <div class="head-login">
+                <button class="btn-login ">Accedi</button>
+            </div>
+        </div>
+    </header>
+    <!-- main section -->
+    <main>
+        <!-- main header box element -->
+        <div class="main-hd header">
+            <div class="head-box">
+                <h1 class="h1-head-box">Il tuo posto per parlare</h1>
+                <p class="p-head-box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos nemo labore quo
+                    quam sapiente reprehenderit, voluptatem aliquam pariatur vitae ipsa. Fuga quia repellendus
+                    asperiores, facere culpa nulla fugit eum. Ab!</p>
+                <div class="box-head-box-buttons">
+                    <button class="btn btn-font"><i class="fa-solid fa-down-long"></i>   Scarica per Mac</button>
+                    <button class="btn btn-font btn-dark-bg">Apri discord nel tuo browser</button>
                 </div>
-                <div class="head-link">
-                    <a href="#" class="link-head-link">Scarica</a>
-                    <a href="#" class="link-head-link">Perchè Discord</a>
-                    <a href="#" class="link-head-link">Nitro</a>
-                    <a href="#" class="link-head-link">Sicurezza</a>
-                    <a href="#" class="link-head-link">Assistenza</a>
-                </div>
-                <div class="head-login">
-                    <button class="btn-login">Accedi</button>
-                </div>
             </div>
-        </header>
-        <!-- main section -->
-        <main>
-            <!-- main header box element -->
-            <div class="main-hd header">
-                <div class="head-box"></div>
+        </div>
+        <!-- main first box -->
+        <div class="main servers">
+            <div class="pic-box">
+                <div class="pic-container img-bg-frog"></div>
             </div>
-            <!-- main first box -->
-            <div class="main servers">
-                <div class="text-box"></div>
-                <div class="pic-box"></div>
+            <div class="text-box">
+                <h1 style="margin-bottom: 0px;">Un luogo a invito con tutto lo spazio necessario per parlare</h1>
+                <p class="p-text-box"">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, unde quis consequatur quaerat nemo esse aliquam blanditiis vitae Lorem ipsum dolor</p>
             </div>
-             <!-- main second box -->
-            <div class="main voice-channels">
-                <div class="pic-box"></div>
-                <div class="text-box"></div>
+        </div>
+        <!-- main second box -->
+        <div class="main voice-channels">
+            <div class="text-box">
+                <h1 style="margin-bottom: 0px;">Dove trovarsi è facile</h1>
+                <p class="p-text-box"">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, unde quis consequatur quaerat nemo esse aliquam blanditiis vitae Lorem ipsum dolor</p>
             </div>
-             <!-- main third box -->
-            <div class="main comunity">
-                <div class="text-box"></div>
-                <div class="pic-box"></div>
+            <div class="pic-box">
+                <div class="pic-container img-bg-wizard"></div>
             </div>
-             <!-- main fourth box -->
-            <div class="main-recap  tech-recap">
-                <div class="recap-box"></div>
+        </div>
+        <!-- main third box -->
+        <div class="main comunity">
+            <div class="pic-box">
+                <div class="pic-container img-bg-graggle"></div>
             </div>
-             <!-- main footer-box -->
-            <div class="main footer">
-                <div class="social-box"></div>
-                <div class="main-ref reference-box">
-                    <div class="main-reference reference-product"></div>
-                    <div class="main-reference reference-company"></div>
-                    <div class="main-reference reference-resources"></div>
-                    <div class="main-reference reference-regulations"></div>
-                </div>
-        <!-- </div> -->
-        </main>
-        <footer>
-            <div class="flex-footer"></div>
-        </footer>
+            <div class="text-box">
+                <h1 style="margin-bottom: 0px;">Da pochi a una fandom</h1>
+                <p class="p-text-box"">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, unde quis consequatur quaerat nemo esse aliquam blanditiis vitae Lorem ipsum dolor</p>
+            </div>
+        </div>
+        <!-- main fourth box -->
+        <div class="main-recap  tech-recap">
+            <div class="recap-box"><h1>WORK IN PROGRESS...</h1></div>
+        </div>
+        <!-- main footer-box -->
+        <div class="main footer">
+            <div class="social-box"></div>
+            <div class="main-ref reference-box">
+                <div class="main-reference reference-product"></div>
+                <div class="main-reference reference-company"></div>
+                <div class="main-reference reference-resources"></div>
+                <div class="main-reference reference-regulations"></div>
+            </div>
+            <!-- </div> -->
+    </main>
+    <footer>
+        <div class="flex-footer"></div>
+    </footer>
 
 
 

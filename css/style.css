@@ -4,8 +4,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    
-    
+
+
 }
 
 /* utils */
@@ -18,7 +18,7 @@ body {
 
 .main {
     min-height: 320px;
-    border: var(--brd-space) dashed black;
+   /*  border: var(--brd-space) dashed black; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -45,14 +45,26 @@ body {
     padding: 30px 0;
 }
 
-.main-ref{
+.main-ref {
     display: flex;
     justify-content: center;
     flex-direction: row;
     min-height: 320px;
     border: var(--brd-space) dashed black;
     padding: 30px 0;
-    
+
+}
+
+.btn {
+    border-color: transparent;
+    border-radius: 15px;
+    margin-left: 25px;
+}
+
+.btn-font {
+    font-size: 12px;
+    font-weight: bold ;
+    padding: 8px 10px;
 }
 
 
@@ -62,11 +74,11 @@ body {
 }
 
 .main.voice-channels {
-    background-color:rgb(211, 211, 211);
+    background-color: rgb(211, 211, 211);
 }
 
 .main-recap.tech-recap {
-    background-color:rgb(211, 211, 211);
+    background-color: rgb(211, 211, 211);
 }
 
 
@@ -78,7 +90,7 @@ body {
 /* header */
 header {
     min-height: 50px;
-     background-color: rgb(42, 94, 232);
+    background-color: rgb(42, 94, 232);
 }
 
 .flex-header {
@@ -93,7 +105,8 @@ header {
     flex-basis: 15%;
     background-color: transparent;
 }
-.img-logo{
+
+.img-logo {
     box-sizing: border-box;
     height: var(--space-xl);
     padding-top: 5px;
@@ -105,7 +118,7 @@ header {
     background-color: transparent;
 }
 
-.link-head-link{
+.link-head-link {
     flex-basis: 50%;
     display: flex;
     justify-content: center;
@@ -114,8 +127,6 @@ header {
     padding-right: 3px;
     text-decoration: none;
     font-size: 70%;
-    
-
 }
 
 .head-login {
@@ -124,35 +135,88 @@ header {
     justify-content: flex-end;
     align-items: center;
     background-color: transparent;
-   
 }
 
 .btn-login{
     border-color: transparent;
     border-radius: 15px;
-    height: 25px;
-    width: 60px;
-    font-size: 10px;
+    height: 20px;
+    width: 50px;
+    font-size: 9px;
+    font-weight: bold;
+    text-align: center;
 }
 
 /* main content */
 .head-box {
-    flex-basis: 50%;
+    flex-basis: 40%;
     background-color: transparent;
-    border: var(--brd-space) dashed black;
+}
+
+.h1-head-box {
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.p-head-box {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.box-head-box-buttons {
+    display: flex;
+    min-height: min-content;
+    justify-content: center;
+}
+
+.btn-head-box {
+    border-color: transparent;
+    border-radius: 15px;
+
+}
+
+.btn-dark-bg{
+    color: white;
+    background-color: rgb(35, 39, 42) ;
 }
 
 .text-box {
-    flex-basis: 40%;
-    background-color: rgb(30, 144, 255);
-    border: var(--brd-space) dashed black;
+    flex-basis: 15%;
+}
+
+.p-text-box{
+    font-size: 12px;
+    font-weight: 600;
+    
 }
 
 .pic-box {
-    flex-basis: 20%;
-    background-color: rgb(255, 192, 203);
-    border: var(--brd-space) dashed black;
+    flex-basis: 40%;
 }
+
+.pic-container{
+    min-height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+.img-bg-frog{
+    background-image: url(../img/item1.svg);
+}
+
+.img-bg-wizard{
+    background-image: url(../img/item2.svg);
+}
+
+.img-bg-graggle{
+    background-image: url(../img/item3.svg);
+}
+
 
 .recap-box {
     flex-basis: 60%;
@@ -176,8 +240,9 @@ header {
     background-color: rgb(23, 174, 174);
     border: var(--brd-space) dashed black;
 }
+
 /* main footer reference's */
-.main-reference{
+.main-reference {
     flex-basis: 30%;
     border: var(--brd-space) dashed black;
 }
